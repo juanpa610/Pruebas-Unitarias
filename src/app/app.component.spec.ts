@@ -2,6 +2,8 @@ import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
+// Ignorar todas las pruebas de AppComponent solo poniendo una x como se muestra en el  comentario acontinuacion
+// xdescribe('AppComponent', () => {
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
